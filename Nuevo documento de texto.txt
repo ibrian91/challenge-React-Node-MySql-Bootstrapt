@@ -1,0 +1,48 @@
+- Instalacion de NodeJs.
+- Creacion Disco C y Carpeta con proyecto.
+- instalacion de la carpeta client y server.
+- en la carpeta cd client creo carpeta react npx create-react-app .
+- carpeta server inicio node. npm init.
+- npm install mysql y express
+- en client elimino carpetas y archivos no necesarios.
+- instalacion axios
+
+FRONTEND:
+- una vez instalado los paquetes empiezo configurando en App.js, el front, la tabla de Gestion de Usuarios;
+donde en un principio fui probando con app.css con las vistas y mas adelante me incline por Bootstrapt.
+- creacion de constantes para trabajar despues con los valores que ingresan a traves del input.
+- los asigno en el setNombre,setApellido, etc hasta el registrar.
+- importacion axios y cors.
+- creacion de la funcion add para agregar usuarios que luego son capturados por el back.
+- estilo de container,card y el boton registrar con Bootstrapt.
+- dentro de la tabla se agregan los botones de editar y eliminar como acciones (columna acciones)
+- tambien se agregan los botones actualizar y cancelar, generando consecuencias dependiendo cada uno.
+-Se agrega un nuevo metodo de limpiar datos para dejar los campos vacios una vez realizada alguna modificacion, alta, modificacion.
+- se agrega en la parte del front la constante de editar para dejar registro en el EditarEmpleado.
+- Se trabaja sobre las alertas con el sweetalert.
+- incluye boton para obtener resultados o mensaje de error luego de filtrar.
+
+
+BACKEND:
+- del lado del backend utilizo express en la constante app.
+- requerir mySql y luego crear una conexion con la base de datos.
+- agregar un usuario (app.post) por los datos que son recibidos del formulario.
+- creacion del listar ( a traves de getUsuarios)
+- PUT o actualizar de la informacion en la parte del back
+- se reciben los datos del lado de filtro. dnifilter.
+ 
+
+BASE DE DATOS:
+- creacion de la base de datos
+- se resetea el contador incremental
+- se verifica correcto funcionamiento de tabla usuarioscrud(base de datos usuarios)
+
+
+
+
+
+
+
+
+
+
